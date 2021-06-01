@@ -9,5 +9,3 @@ In order to develop a model which could predict the person's emotion using face 
 8. Some tuning of the hyperparameters can be done if required.
 9. Take the image input and our model will predict the emotion.
 10. Our model is ready.
-
-jdjbvciSBADi
