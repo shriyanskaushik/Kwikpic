@@ -1,0 +1,6 @@
+Assume we want to retrieve a single object for a Django model called Attendee with primary key = 7. Write down the query used in Django ORM for the same.
+
+Attendee.objects.filter(id = 7)
+or
+from django.shortcuts import get_object_or_404
+get_object_or_404(Attendee, id = 7)
