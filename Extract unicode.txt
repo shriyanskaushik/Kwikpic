@@ -1,0 +1,12 @@
+import os
+from PIL import Image
+
+dir = input("Enter the path where the image is stored: ") #Enter the directory path where the image is stored
+
+images = [f for f in os.listdir(dir) if os.path.splitext(f)[-1] == '.jpg'] # making list of the names of all the files with extension .jpg
+name = images[0] #Taking name of first file
+
+index = name.find("-") #find index of the characer '-'
+print(name[index+1:-4]) # print the unicode
+
+# Not aware of the cloud computing much
