@@ -9,4 +9,4 @@ name = images[0] #Taking name of first file
 index = name.find("-") #find index of the characer '-'
 print(name[index+1:-4]) # print the unicode
 
-# Not aware of the cloud computing much
+# Not aware of the cloud computing much.
